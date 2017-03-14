@@ -26,7 +26,7 @@ public class MainPac {
             }
             System.out.println("Score     : "+pac.score());
             System.out.println("sisa move : " + pac.move());
-            System.out.print("(w,a,s,d untuk pergerakan)>");
+            System.out.print("(w,a,s,d for move . q to quit)>");
             move = sc.nextLine();
             switch (move) {
                 case "w":
